@@ -9,12 +9,14 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Button button1;
+    Button button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button1 = (Button) findViewById(R.id.button1);
+        button2 = (Button) findViewById(R.id.button2);
         // new modify 수정했습니다.
 
         button1.setOnClickListener(new View.OnClickListener() {
